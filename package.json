@@ -2,13 +2,17 @@
   "name": "solid-js-materials",
   "version": "0.1.0",
   "description": "Component library for SolidJS",
-  "browser": "solidJsMaterials",
+  "browser": "build/release/components.js",
+  "types": "build/dts/exports.d.ts",
   "scripts": {
     "build:debug": "webpack --config webpack.dev.js",
     "build:dts": "tsc --project tsconfig.dts.json",
 
     "build:tests": "webpack --config webpack.test.js",
-    "build:tests:server": "webpack serve --config webpack.test.js"
+    "build:tests:server": "webpack serve --config webpack.test.js",
+
+    "prebuild:release": "npm run build:dts",
+    "build:release": "webpack --config webpack.prod.js"
   },
   "repository": {
     "type": "git",

@@ -1,0 +1,12 @@
+node_modules/
+src/
+.babelrc
+tsconfig.json
+tsconfig.dts.json
+webpack.dev.js
+webpack.test.js
+webpack.prod.js
+
+
+.idea/
+.vscode/
