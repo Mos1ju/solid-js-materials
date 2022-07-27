@@ -1,0 +1,37 @@
+{
+  "name": "solid-js-materials",
+  "version": "0.1.0",
+  "description": "Component library for SolidJS",
+  "browser": "solidJsMaterials",
+  "scripts": {
+    "build:debug": "webpack --config webpack.dev.js",
+    "build:dts": "tsc --project tsconfig.dts.json",
+
+    "build:tests": "webpack --config webpack.test.js",
+    "build:tests:server": "webpack serve --config webpack.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mos1ju/solid-js-materials.git"
+  },
+  "author": "Michał Moś",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mos1ju/solid-js-materials/issues"
+  },
+  "homepage": "https://github.com/Mos1ju/solid-js-materials#readme",
+  "devDependencies": {
+    "@babel/core": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/preset-typescript": "^7.18.6",
+    "@types/webpack": "^5.28.0",
+    "babel-loader": "^8.2.5",
+    "babel-preset-solid": "^1.4.2",
+    "html-webpack-plugin": "^5.5.0",
+    "solid-js": "^1.4.3",
+    "typescript": "^4.7.4",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.3"
+  }
+}

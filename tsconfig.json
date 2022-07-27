@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
+    "baseUrl": "./",
+    "paths": {
+      "solid-js-materials": ["build/dts/exports.d.ts"]
+    }
+  },
+  "include": ["src/"],
+  "exclude": ["node_modules/"]
+}
