@@ -1,5 +1,7 @@
 node_modules/
 src/
+build/tests/
+
 .babelrc
 tsconfig.json
 tsconfig.dts.json
