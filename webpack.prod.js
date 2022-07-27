@@ -25,7 +25,8 @@ module.exports = {
         library: {
             name: "solid-js-materials",
             type: "umd"
-        }
+        },
+        clean: true
     },
     externals: {
         "solid-js": {
