@@ -1,6 +1,6 @@
 import { render } from "solid-js/web";
 import type { JSX } from "solid-js";
-import { IProps, Body } from "solid-js-materials";
+import { IProps, Body, Article } from "solid-js-materials";
 
 interface IPropsApp extends IProps {
     name: string;
@@ -10,8 +10,11 @@ const App = (props: IPropsApp): JSX.Element => {
     return(
     <>
         <Body>
-            <div>Hello {props.name}</div>
+            <div>Testing Body tag</div>
         </Body>
+        <Article>
+            Testing Article tag
+        </Article>
     </>
 )}
 
