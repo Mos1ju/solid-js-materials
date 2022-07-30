@@ -6,6 +6,7 @@
   "types": "build/dts/exports.d.ts",
   "scripts": {
     "build:debug": "webpack --config webpack.dev.js",
+    "build:debug:watch": "webpack --watch --config webpack.dev.js",
     "build:dts": "tsc --project tsconfig.dts.json",
     "build:tests": "webpack --config webpack.test.js",
     "build:tests:server": "webpack serve --config webpack.test.js",
